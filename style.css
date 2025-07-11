@@ -1,123 +1,61 @@
-body {
-  margin: 0;
-  font-family: 'Segoe UI', sans-serif;
-  background: #f9fcff;
-  color: #333;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PrimEdu</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
 
-header {
-  background: #fff;
-  padding: 15px 30px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
+  <header>
+    <div class="nav">
+      <div class="logo">PrimEdu</div>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#courses">Our Courses</a>
+        <a href="#contact">Contact</a>
+        <a href="#" class="btn btn-primary">Get Started</a>
+      </nav>
+    </div>
+  </header>
 
-.nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-}
+  <section class="hero">
+    <h1>Learn English Easily</h1>
+    <p>Your journey to fluency begins with our expert tutors and engaging courses.</p>
+    <a href="#" class="btn btn-primary">Get Started</a>
+  </section>
 
-.logo {
-  font-size: 24px;
-  font-weight: bold;
-  color: #003399;
-}
+  <section id="about" class="section">
+    <h2>About Us</h2>
+    <p>We are an online learning platform that helps students and teachers achieve success in English, IELTS, and SAT exams.</p>
+  </section>
 
-nav {
-  display: flex;
-  gap: 20px;
-  align-items: center;
-}
+  <section id="courses" class="section">
+    <h2>Our Courses</h2>
+    <ul>
+      <li>English for Beginners</li>
+      <li>IELTS Preparation</li>
+      <li>SAT Training</li>
+      <li>Teaching Methodology</li>
+    </ul>
+  </section>
 
-nav a {
-  text-decoration: none;
-  color: #333;
-  font-weight: 500;
-  transition: color 0.3s;
-}
+  <section class="section">
+    <h2>Boost your career</h2>
+    <p>Enhance your professional life with better English communication skills. Start today!</p>
+  </section>
 
-nav a:hover {
-  color: #003399;
-}
+  <section id="contact" class="section">
+    <h2>Free Consultation</h2>
+    <p>We’re here to guide you through your learning goals. Book a free consultation now.</p>
+    <a href="https://wa.me/77001234567" class="btn btn-primary">WhatsApp</a>
+  </section>
 
-.hero {
-  background-color: #eef4ff;
-  color: #003399;
-  padding: 60px 20px;
-  text-align: center;
-}
+  <footer>
+    <p>&copy; 2025 PrimEdu Global. All rights reserved.</p>
+  </footer>
 
-.hero h1 {
-  font-size: 42px;
-  margin-bottom: 20px;
-}
-
-.hero-image {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 20px auto;
-  border-radius: 10px;
-}
-
-.hero p {
-  font-size: 18px;
-  max-width: 600px;
-  margin: 20px auto;
-}
-
-.lang-buttons {
-  margin-top: 20px;
-}
-
-.btn {
-  display: inline-block;
-  padding: 12px 24px;
-  border-radius: 8px;
-  text-decoration: none;
-  font-weight: bold;
-  cursor: pointer;
-  margin: 5px;
-}
-
-.btn-primary {
-  background: #003399;
-  color: white;
-}
-
-.btn-secondary {
-  background: #e0e0e0;
-  color: #003399;
-}
-
-.section {
-  padding: 60px 20px;
-  max-width: 800px;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.section h2 {
-  font-size: 30px;
-  margin-bottom: 20px;
-  color: #003399;
-}
-
-.section ul {
-  list-style: none;
-  padding: 0;
-}
-
-.section ul li {
-  margin: 10px 0;
-  font-size: 18px;
-}
-
-footer {
-  background: #f0f0f0;
-  text-align: center;
-  padding: 30px 20px;
-  font-size: 14px;
-  color: #555;
-}
+</body>
+</html>
